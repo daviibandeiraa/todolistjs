@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #10002b;
+
+}
+
+.container {
+    background-color: #d1d1d1;
+    width: 500px;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 100px auto 0;
+    padding-left: 20px;
+}
+
+img {
+    height: 25px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.tarefas:hover img {
+    opacity: 1;
+}
+
+.input-tarefas {
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    color: #000;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.botao-tarefas {
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    background: linear-gradient(45deg, #4b0091, #6b5bde, #4b0091, #6b5bde);
+    background-size: 400% 200%;
+    transition: background 2.5s cubic-bezier(0.5, 0.1, 0.4, 0.9);
+    animation: brilho 3.5s ease-in infinite;
+    color: #fff;
+    padding: 10px 25px 10px 25px;
+    cursor: pointer;
+    float: right;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.botao-tarefas:hover {
+    -xpedu-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+.lista-tarefas {
+    width: 100%;
+    list-style: none;
+    margin-top: 30px;
+
+}
+
+.tarefas {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: 50px;
+    padding: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.concluido {
+    background-color: #4b0091;
+    color: #fff;
+    text-decoration: line-through;
+    background: linear-gradient(45deg, #4b0091, #6b5bde, #4b0091, #6b5bde);
+    background-size: 400% 200%;
+    transition: background 2.5s cubic-bezier(0.5, 0.1, 0.4, 0.9);
+    animation: brilho 3.5s ease-in infinite;
+}
+
+.redes-sociais {
+    font-size: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    color:linear-gradient(45deg, #4b0091, #6b5bde, #4b0091, #6b5bde);
+    animation: brilho 3.5s ease-in infinite;
+}
+
+.instagram-icon:hover{
+    -xpedu-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+    opacity: 0.8;
+}
+.linkedin-icon:hover{
+    -xpedu-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+    opacity: 0.8;
+}
+.github-icon:hover{
+    -xpedu-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+    opacity: 0.8;
+}
