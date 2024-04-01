@@ -1,3 +1,3 @@
 # todolistjs
 
-https://daviibandeiraa.github.io/todolistjs/
+https://todolistjs-beta.vercel.app/
